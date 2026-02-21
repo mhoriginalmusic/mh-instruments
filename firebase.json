@@ -1,0 +1,1 @@
+{\n  "hosting": {\n    "public": "./" ,\n    "ignore": [\n      "firebase.json",\n      "**/.*",\n      "**/node_modules/**"\n    ]\n  }\n}
