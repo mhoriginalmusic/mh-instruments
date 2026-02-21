@@ -1,0 +1,56 @@
+/*
+ * Stylesheet for MH Instruments
+ * Color scheme:
+ * Deep Navy Blue: #001F3F
+ * Gold: #FFD700
+ * White: #FFFFFF
+ * Dark Gray: #333333
+ */
+
+body {
+    background-color: #001F3F;  /* Deep Navy Blue */
+    color: #FFFFFF;  /* White */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFD700;  /* Gold */
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #333333;  /* Dark Gray */
+    color: #FFFFFF;  /* White */
+    padding: 10px;
+}
+
+nav a {
+    color: #FFD700;  /* Gold */
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #FFFFFF;  /* White */
+}
+
+footer {
+    background-color: #333333;  /* Dark Gray */
+    color: #FFFFFF;  /* White */
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
