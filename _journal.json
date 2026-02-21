@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1771627952331,
+      "tag": "0000_faithful_hellion",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1771628068978,
+      "tag": "0001_wooden_imperial_guard",
+      "breakpoints": true
+    }
+  ]
+}
