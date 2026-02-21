@@ -1,35 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#my-music">My Music</a></li>
-                <li><a href="#composition-store">Composition Store</a></li>
-                <li><a href="#finance">Finance</a></li>
-                <li><a href="#support">Support</a></li>
-            </ul>
-            <div class="auth-buttons">
-                <button onclick="location.href='#signup'">Sign Up</button>
-                <button onclick="location.href='#login'">Login</button>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section class="hero">
-            <h1>EMBRACE YOUR CREATIVITY</h1>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2026 MH Instruments. All rights reserved.</p>
-    </footer>
-</body>
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>MH Instruments - Music Distribution & Composition Platform</title>    
+    <!-- THIS IS THE START OF A COMMENT BLOCK, BLOCK TO BE DELETED: Google Fonts here, example:
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    THIS IS THE END OF A COMMENT BLOCK, BLOCK TO BE DELETED -->
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script
+      defer
+      src="%VITE_ANALYTICS_ENDPOINT%/umami"
+      data-website-id="%VITE_ANALYTICS_WEBSITE_ID%"></script>
+  </body>
+
 </html>
